@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { MessageCircle } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 
 export default function FloatingWhatsApp() {
   const whatsappUrl =
@@ -16,7 +16,7 @@ export default function FloatingWhatsApp() {
       aria-label="Direct Chat on WhatsApp"
       title="Chat with Pooja's Kitchen on WhatsApp"
     >
-      <MessageCircle size={32} fill="#FFFFFF" stroke="#FFFFFF" />
+      <WhatsAppIcon size={32} fill="#FFFFFF" />
       <span
         style={{
           position: "absolute",

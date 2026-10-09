@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { SectionFlourish } from "./Flourish";
 
 export default function CustomerTestimonials() {
   const testimonials = [
@@ -29,7 +28,6 @@ export default function CustomerTestimonials() {
         <div className="testimonials-header">
           <h2 className="testimonials-title">
             What Our Customers Say
-            <SectionFlourish />
           </h2>
           <p className="testimonials-subtitle">Real experiences from our happy customers.</p>
         </div>

@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { X, MessageCircle } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 import { GalleryItem } from "./OurWork";
 
 interface LightboxModalProps {
@@ -81,7 +82,7 @@ export default function LightboxModal({ item, onClose, onInquire }: LightboxModa
             className="btn-primary"
             style={{ padding: "10px 20px", fontSize: "14px" }}
           >
-            <MessageCircle size={16} fill="#25D366" stroke="#25D366" />
+            <WhatsAppIcon size={16} fill="#25D366" />
             <span>Book this Setup</span>
           </button>
         </div>

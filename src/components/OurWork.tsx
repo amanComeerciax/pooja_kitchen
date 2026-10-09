@@ -2,7 +2,6 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import { SectionFlourish } from "./Flourish";
 import { ArrowLeft, ArrowRight, ZoomIn } from "lucide-react";
 
 export interface GalleryItem {
@@ -70,7 +69,6 @@ export default function OurWork({ onImageClick }: OurWorkProps) {
           <div className="our-work-title-wrap">
             <h2 className="our-work-title">
               Our Work
-              <SectionFlourish />
             </h2>
             <p className="our-work-subtext">
               A glimpse of our recent events and live catering setups.

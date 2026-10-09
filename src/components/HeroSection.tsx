@@ -2,6 +2,7 @@
 
 import React from "react";
 import { ChefHat, Utensils, Sparkles, MessageCircle, ArrowRight } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 import BrushSticker from "./BrushSticker";
 
 interface HeroSectionProps {
@@ -31,7 +32,7 @@ export default function HeroSection({ onPlanEvent, onExploreMenu }: HeroSectionP
               className="btn-hero-primary"
               aria-label="Plan Your Event"
             >
-              <MessageCircle size={18} fill="#25D366" stroke="#25D366" />
+              <WhatsAppIcon size={18} fill="#25D366" />
               <span>Plan Your Event</span>
               <ArrowRight size={16} />
             </button>

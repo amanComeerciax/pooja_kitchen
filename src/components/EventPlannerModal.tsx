@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { X, MessageCircle, Calendar, Users, Sparkles, Check } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 
 interface EventPlannerModalProps {
   isOpen: boolean;
@@ -193,7 +194,7 @@ export default function EventPlannerModal({
             className="btn-primary"
             style={{ width: "100%", padding: "14px", marginTop: "8px" }}
           >
-            <MessageCircle size={18} fill="#25D366" stroke="#25D366" />
+            <WhatsAppIcon size={18} fill="#25D366" />
             <span>Send Details on WhatsApp</span>
           </button>
         </form>

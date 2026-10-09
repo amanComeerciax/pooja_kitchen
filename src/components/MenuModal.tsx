@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { X, MessageCircle, Sparkles, CheckCircle2 } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 
 interface MenuModalProps {
   isOpen: boolean;
@@ -188,7 +189,7 @@ export default function MenuModal({ isOpen, onClose, onOrderDish }: MenuModalPro
                   className="btn-primary"
                   style={{ padding: "8px 16px", fontSize: "13px" }}
                 >
-                  <MessageCircle size={15} fill="#25D366" stroke="#25D366" />
+                  <WhatsAppIcon size={15} fill="#25D366" />
                   <span>Inquire</span>
                 </button>
               </div>

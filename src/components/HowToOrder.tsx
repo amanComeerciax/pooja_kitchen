@@ -2,12 +2,13 @@
 
 import React from "react";
 import { MessageCircle, ClipboardList, ChefHat, Utensils, ChevronRight } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 
 export default function HowToOrder() {
   const steps = [
     {
       num: "1",
-      icon: <MessageCircle size={28} color="#4A101D" strokeWidth={1.8} />,
+      icon: <WhatsAppIcon size={28} fill="#4A101D" />,
       title: "Contact Us",
       description: "Share your event details on WhatsApp.",
     },

@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { SectionFlourish } from "./Flourish";
 
 interface OfferingItem {
   id: string;
@@ -50,7 +49,6 @@ export default function PopularOfferings({ onSelectItem }: PopularOfferingsProps
         <div className="section-header-row">
           <h2 className="section-title">
             Our Popular <span className="accent">Offerings</span>
-            <SectionFlourish />
           </h2>
           <p className="section-subtext">
             A selection of our most loved items, perfect for any occasion.

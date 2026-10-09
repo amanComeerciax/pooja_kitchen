@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { MessageCircle, Menu, X, Phone } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 
 interface NavbarProps {
   onOpenOrderModal: () => void;
@@ -86,7 +87,7 @@ export default function Navbar({ onOpenOrderModal }: NavbarProps) {
             className="navbar-whatsapp-btn"
             aria-label="Order on WhatsApp"
           >
-            <MessageCircle size={18} fill="#25D366" stroke="#25D366" />
+            <WhatsAppIcon size={18} fill="#25D366" />
             <span className="desktop-nav-btn-text">Order on WhatsApp</span>
             <span className="mobile-nav-btn-text">Order</span>
           </button>

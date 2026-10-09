@@ -3,6 +3,7 @@
 import React from "react";
 import PoojaLogo from "./PoojaLogo";
 import { Phone, MessageCircle, Heart } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 
 interface FooterProps {
   onOpenOrderModal: () => void;
@@ -139,7 +140,7 @@ export default function Footer({ onOpenOrderModal }: FooterProps) {
               style={{ padding: "10px 22px", fontSize: "14px", marginTop: "10px" }}
               aria-label="Order on WhatsApp"
             >
-              <MessageCircle size={18} fill="#25D366" stroke="#25D366" />
+              <WhatsAppIcon size={18} fill="#25D366" />
               <span>Order on WhatsApp</span>
             </button>
           </div>
