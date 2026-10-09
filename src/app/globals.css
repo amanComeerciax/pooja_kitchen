@@ -779,7 +779,7 @@ button {
    ======================================================== */
 .our-work-section {
   padding: 44px 0 52px;
-  background-color: #FAF7F2;
+  background-color: var(--color-maroon);
 }
 
 .our-work-container {
@@ -804,7 +804,7 @@ button {
 .our-work-title {
   font-family: var(--font-serif);
   font-size: clamp(28px, 3.2vw, 36px);
-  color: #3F0E18;
+  color: #FFFFFF;
   font-weight: 800;
   display: inline-flex;
   align-items: center;
@@ -814,7 +814,7 @@ button {
 .our-work-subtext {
   font-family: var(--font-sans);
   font-size: 14.5px;
-  color: #6E5F57;
+  color: #EAE0D5;
 }
 
 .our-work-arrows {
@@ -827,9 +827,9 @@ button {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border: 1px solid #D8C7B4;
-  background-color: #FAF5ED;
-  color: #4A101D;
+  border: 1px solid var(--color-gold);
+  background-color: transparent;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -839,9 +839,9 @@ button {
 
 .our-work-arrow-btn:hover,
 .our-work-arrow-btn.active {
-  background-color: #4A101D;
-  border-color: #4A101D;
-  color: #FFFFFF;
+  background-color: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-maroon);
 }
 
 .our-work-grid {
@@ -898,7 +898,7 @@ button {
    ======================================================== */
 .how-order-section {
   padding: 48px 0 52px;
-  background-color: #FAF7F2;
+  background-color: #FFFFFF;
 }
 
 .how-order-container {
@@ -1025,10 +1025,11 @@ button {
 }
 
 .testimonial-quote-card {
-  background-color: #FAF5ED;
+  background-color: #FFFFFF;
   border-radius: 12px;
   padding: 28px 24px;
   border: 1px solid #ECE2D4;
+  box-shadow: 0 4px 16px rgba(78, 18, 30, 0.04);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1530,7 +1531,7 @@ button {
     align-items: center;
     gap: 10px;
     width: 100%;
-    max-width: 320px;
+    max-width: 280px;
     margin: 0 auto 22px;
   }
 
@@ -1538,8 +1539,8 @@ button {
   .btn-hero-secondary {
     width: 100%;
     justify-content: center;
-    padding: 11px 20px;
-    font-size: 14.5px;
+    padding: 9px 18px;
+    font-size: 14px;
   }
 
   .hero-features-row {
